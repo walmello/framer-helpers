@@ -1,11 +1,11 @@
-function useChildren(props, index = 0) {
+export function useChildren(props, index = 0) {
     const children = !Array.isArray(props.children)
         ? props.children
         : props.children[index]
     return children
 }
 
-function useComponent(props, index = 0) {
+export function useComponent(props, index = 0) {
     const children = useChildren(props, index)
     const element = children.props.children
     return (subs) => {
