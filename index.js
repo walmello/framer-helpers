@@ -1,3 +1,5 @@
+import { cloneElement } from "react"
+
 export function useChildren(props, index = 0) {
     const children = !Array.isArray(props.children)
         ? props.children
