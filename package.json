@@ -1,0 +1,11 @@
+{
+  "name": "framer-helpers",
+  "version": "1.0.0",
+  "description": "Some helpers and hooks to make development in Framer easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
