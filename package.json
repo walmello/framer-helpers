@@ -1,6 +1,6 @@
 {
   "name": "framer-helpers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Some helpers and hooks to make development in Framer easier",
   "main": "index.js",
   "scripts": {
